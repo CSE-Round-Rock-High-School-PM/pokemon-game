@@ -10,7 +10,7 @@ pokeList = pokemon.split(" ")
 
 def pokeRecur(words):
     word = words[len(words)-1]
-    lastLetter = word[word.__len__()-1]
+    lastLetter = word[len(word)-1]
     if len(words) == 70:
          return words  
     for item in pokeList:
